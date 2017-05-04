@@ -15,11 +15,11 @@ author:
   facebook:          "Le.Paul.94"
   linkedin:          "lenpaul"
 navigation:
-- title: About
+- title: Hakkımızda
   url: /about
-- title: Writing
+- title: Yazılar
   url: /writing
-- title: Contact
+- title: İletişim
   url: /contact
 
 paginate:            5
