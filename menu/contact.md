@@ -1,6 +1,12 @@
 ---
 layout: page
-title: Contact
+title: İletisim
 ---
 
-If you are having any problems, any questions or suggestions, feel free to [tweet at me](https://twitter.com/intent/tweet?text=%40paululele), or [file a GitHub issue](https://github.com/lenpaul/lagrange/issues/new)
+Pailab İnternet Hizmetlerine ulaşmak icin bu hesaplarımızı ziyaret edebilirsiniz:
+
+1.[Twitter](https://twitter.com/pailabnet)
+
+2.[instagram](https://www.instagram.com/pailabnet/)
+
+3.[GitHub](https://github.com/pailab)

@@ -1,0 +1,306 @@
+<!doctype html>
+<html>
+
+<head>
+
+  <title>
+
+      Shellscript Nedir? | Pailab Blog
+
+  </title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="stylesheet" href="/css/syntax.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700%7CPT+Sans:400">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Code+Pro">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quattrocento+Sans">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+
+  <script type="text/javascript" async
+    src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+  </script>
+
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-80213386-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+
+</head>
+
+
+<body>
+
+  <div class="container">
+    <header class="masthead">
+  <h3 class="masthead-title">
+    <a href="/">Pailab Blog</a>
+    <small class="masthead-subtitle">Pailab Offical Blog</small>
+    <div class="menu">
+  <div class="menu-content">
+
+    <a class="element first  " href="/menu/about">Hakkımızda</a>
+
+    <a class="element   " href="/menu/writing">Yazılar</a>
+
+    <a class="element   last" href="/menu/contact">İletisim</a>
+
+  </div>
+  <div class="social-icons">
+    <a href="https://github.com/pailab"><i class="fa fa-github" aria-hidden="true" target="_blank"></i></a>
+    <a href="https://twitter.com/pailabnet"><i class="fa fa-twitter" aria-hidden="true" target="_blank"></i></a>
+    <a href="https://instagram.com/pailab"><i class="fa fa-instagram" aria-hidden="true" target="_blank"></i></a>
+    <a href="https://linkedin.com/in/pailab"><i class="fa fa-linkedin" aria-hidden="true" target="_blank"></i></a>
+    <a href="mailto:info@pailab.net"><i class="fa fa-envelope" aria-hidden="true" target="_blank"></i></a>
+  </div>
+</div>
+
+  </h3>
+</header>
+
+
+    <div class="post-container">
+      <h1>
+  Shellscript Nedir?
+</h1>
+
+
+  <img src="/images/example.jpg">
+
+
+<p>Shellscript Nedir?</p>
+
+<p>Shellscriptin ne olduğundan bahsetmeden önce kısaca “shell” nedir onu anlatmam gerek.</p>
+
+<p>Shell: “Shell” Türkçe “Kabuk” anlamına gelmektedir.Kullanıcının yazdığı komutların sistem üzerinde çalışmasını sağlayan kısımdır.Birden fazla kabuk bulunmaktadır örnek vericek olursak:</p>
+
+<p>=&gt;Bornue Shell(sh)</p>
+
+<p>=&gt;Bourne Again Shell(Bash)</p>
+
+<p>=&gt; C Shell</p>
+
+<p>Kısaca shell bu şekildedir.Artık shellscriptden bahsedebiliriz.</p>
+
+<p>Linux altında hızlı ve pratik programlama yapmanın en kısa yolu shellscript ile yapılır.İşletim sisteminin doğal komutlarını çalıştırma ve ek herhangi bir yorumlayıcı istememesi shell script(betik) dilini diğerlerinden ayıran en önemli faktördür. Yazdığınız bir kodu tüm Linux/UNIX sistemlerde kullanabiliriz.Shellscript konsoldan verilen komutları belirli bir düzene uyarak çalıştırmaktan ibarettir.</p>
+
+<p>Shellscriptin Yetenekleri</p>
+
+<p>Çevre Değişkenleri</p>
+
+<p>Aritmetik İşlemler</p>
+
+<p>Diziler</p>
+
+<p>İf yapısı</p>
+
+<p>Case Yapısı</p>
+
+<p>For Döngüsü</p>
+
+<p>While Döngüsü
+Shellscript nasıl yazılır?</p>
+
+<p>Herhangi bir metin editörüyle programı yazıp kaydedip çıktıktan sonra yazdığımız programa “chmod +x programismi “şeklinde çalıştırma yetkisi vermemiz gerekir.Bu yetkiyi verdikten sonra “./programismi” yazarak scriptimizi çalıştırabiliriz.</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>Değişkenler
+</code></pre>
+</div>
+
+<p>Çevre değişkenleri değişken adından sonra “=” işareti yazılarak kurulur;DEGISKENADI=deger</p>
+
+<p>Komut satırında degiskenin adının önüne “$” işareti atılarak da değişkenin değeri okunur.</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>Tırnaklar
+</code></pre>
+</div>
+
+<p>Tırnaklar kullanılarak katarlar(string) tanımlanır.Bashde üç çeşit tırnak kullanımı vardır.</p>
+
+<p>“ ”(Çift Tırnak)=Çift tırnağın içine yazılan katarda değişken yakalanır ve neye eşitse o yakalanır ama komut yakalanmaz yani komut çalıştırmaz.</p>
+
+<p>‘ ’(Tek Tırnak)=&gt;Ters tırnak içerisinde yazılmış olan katarda değişkenler ve komutlar yakalanıp çalıştırılmaz.</p>
+
+<p><code class="highlighter-rouge"> </code>(Ters Tırnak)=&gt;Ters tırnak içerisinde yazılmış olan katarda yer alan değişkenler ve komutlar yakalanır ve çalıştırılır.
+  <img src="/images/example2.png" alt="image" /><img src="/images/example3.png" alt="image" /><br />
+  Aritmetik Operatörler</p>
+
+<p>Kabukta aritmetik işlemler “let” komutuyla yapılır.</p>
+
+<p>“+” ”-” ”*” “/” işaretleri sırasıyla toplama,çıkarma,çarpma ,bölme işlemleri için kullanılır.Çarpma işlemi için ters bölü işaretinin kullanılmasının sebebi bashin “ * “ özel karakter olarak algılamasından kaynaklandığı içindir.</p>
+
+<p>”%” bölümden kalanı bulmak içindir.</p>
+
+<ul>
+  <li>ve — teker teker sayiyi azaltmak için kullanılır.
+  « » işleçleri sola ve sağa işlecin sağındaki sayı kadar kaydırma için kullanılır(Örnek:üzerinde işlem yapılan sayıyı ikinin üsleriyle çarpma veya bölmeye karşılık gelir)
+  &amp; | bunlarda bildiğimiz mantık operatörlerimizdir.Sırasıyla “Ve” ve “Veya” demektir.
+  <img src="/images/example4.png" alt="image" /></li>
+</ul>
+
+<p>Döngüler ve Koşullar</p>
+
+<p>Burda da “if” koşulu vardır ama burda kullanımı daha farklıdır.Köşeli parantez ve koşul bitişi için “fi” kullanılır.</p>
+
+<p>İf kullanılırken bazı parametreler bize çok yardımcı olur.Bunlar şu şekildedir:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>eq =&gt;eşittir
+-lt =&gt;; küçüktür.
+-gt =&gt;; büyüktür
+-ge =&gt;; büyük eşittir
+-le =&gt;; küçük eşittir
+</code></pre>
+</div>
+
+<p>Bunu hemen ufak bir örnekle açıklayalım.
+<img src="/images/example5.png" alt="image" /></p>
+
+<p>Örnekte kullanmışken bu $1 ve $2 nedir açıklayalım hemen.Bunlar biz dosyamızı çalıştırırken dosyamıza parametre göndermemizi sağlar.$1 ilk parametre $2 de ikinci paremetremizdir.</p>
+
+<p>İf ve while yapısındaki durumlar test komutu ile kullanılmaktadır.</p>
+
+<p>“test ifade” biçiminde kullanılmaktadır.</p>
+
+<p>İfade değerleri de bunlardır:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>f dosya =&gt;Dosya varsa ve türü dosya ise doğrudur.
+-d dosya =&gt; Dosya varsa ve türü dizin ise doğrudur.
+-s dosya =&gt; Dosya varsa ve boş değilse doğrudur.
+-w dosya =&gt; Dosya varsa ve yazılabilir ise doğrudur.
+-x dosya =&gt; Dosya varsa ve çalıştırılabilir ise doğrudur.
+-O dosya =&gt; Dosya varsa ve sahibi geçerli kullanıcı ise doğrudur.
+</code></pre>
+</div>
+
+<p>Kullanımı da test [ ifade dosya ] şeklindedir.Burda parantezlerin içinde bir boşluk bırakmaya dikkat etmelisiniz.</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>For Yapısı
+</code></pre>
+</div>
+
+<p>Burdaki for yapısı aslında bizim bildiğimiz for yapısından biraz daha farklıdır.</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>for isim in kelime (burdaki isim değişkenimizdir)
+
+do
+
+komutlar
+
+done
+</code></pre>
+</div>
+
+<p>Burda değişkenimize kelime kümesindeki değerleri sırasıyla isim adlı değişkenimize aktarmaktadır.Kelime kümesindeki değerler bitene kadar do done arasındaki komutlar çalıştırılıcaktır.</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code><span class="c">#!/bin/bash</span>
+<span class="nv">i</span><span class="o">=</span>1
+<span class="nv">gunler</span><span class="o">=</span><span class="s2">"pazartesi sali carsamba persembe cuma cumartesi pazar"</span>
+<span class="k">for </span>gun <span class="k">in</span> <span class="nv">$gunler</span>
+<span class="k">do
+        </span><span class="nb">echo</span> <span class="s2">"</span><span class="k">$((</span>i++<span class="k">))</span><span class="s2">.Gün: </span><span class="nv">$gun</span><span class="s2">"</span>
+        <span class="k">done</span>
+</code></pre>
+</div>
+
+<p>While Yapısı</p>
+
+<p>While döngüsünde bu durum hemen hemen aynıdır diyebiliriz.</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>while durum
+
+do
+              komutlar
+              done
+</code></pre>
+</div>
+
+<p>Syntax bu şekildedir.</p>
+
+<p>Case</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>case  $değişken ismi  in
+              durum1)
+ 		           komutlar
+                  ...
+                  ....
+                  ;;
+                  durum2)
+ 		               komutlar
+                   ...
+                   ....
+                   ;;
+                   durum3)
+ 		                komutlar
+                    ...
+                    ....
+                    ;;
+                    *)
+                    esac
+</code></pre>
+</div>
+
+<p>Mantık olarak bildiğimiz case yapısıdır ama syntax olarak biraz farklılık göstermektedir.Örneğin * tüm durumlar olmadığında çalışması gerekeni belirtir yani tüm durumları kontrol eder aslında diyebiliriz.”esac” ise döngümüzü bitirmek için yazmamız gerekir.Bu şekilde havada kalabilir o yüzden hemen basit bir örnekle açıklayalım.</p>
+
+<p>#!/bin/bash
+    while true
+    do
+    echo “ls:1”
+    echo “rm -rf:2”
+    echo “date:3”</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>echo "Çalıştırmak istediğiniz komutun numarasını giriniz:"
+read kom
+
+case $kom in
+        1)echo `ls` ;;
+        2)echo `rm -rf` ;;
+        3)echo `date` ;;
+        *)echo "Bu numarada komut yoktur" ;;
+        esac
+        done
+</code></pre>
+</div>
+
+<p>Shellscript ile ilgili ilk aklıma gelenler şimdilik bu şekilde bir sonra ki yazıda devamı gelicek.Görüşmek üzere</p>
+
+
+<span class="post-date">
+  Written on
+
+  May
+  4th,
+  2017
+  by Volkan Oluc
+</span>
+<div class="post-date">Paylaşmayı sevin:)</div>
+  <div class="sharing-icons">
+    <a href="https://twitter.com/intent/tweet?text=Shellscript Nedir?&amp;url=/journal/shellscript.html&amp;via=pailabnet" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+    <a href="https://www.facebook.com/sharer/sharer.php?u=/journal/shellscript.html&amp;title=Shellscript Nedir?" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+    <a href="https://plus.google.com/share?url=/journal/shellscript.html" target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+  </div>
+</div>
+
+    </div>
+
+    <footer class="footer">
+  <a href="https://github.com/pailab"><i class="fa fa-github" aria-hidden="true" target="_blank"></i></a>
+  <a href="https://twitter.com/pailabnet"><i class="fa fa-twitter" aria-hidden="true" target="_blank"></i></a>
+  <a href="https://instagram.com/pailab"><i class="fa fa-instagram" aria-hidden="true" target="_blank"></i></a>
+  <a href="https://linkedin.com/in/pailab"><i class="fa fa-linkedin" aria-hidden="true" target="_blank"></i></a>
+  <a href="mailto:info@pailab.net"><i class="fa fa-envelope" aria-hidden="true" target="_blank"></i></a>
+  <div class="post-date"><a href="/menu/about.html">Pailab Blog | Pailab Offical Blog by Pailab</a></div>
+</footer>
+
+
+  </div>
+
+</body>
+</html>

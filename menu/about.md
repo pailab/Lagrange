@@ -1,5 +1,5 @@
 ---
 layout: page
-title: About
+title: Hakkımızda
 ---
-Lagrange is a minimalist Jekyll. It is intended to have a clean, content focused interface for blog writing.
+Pailab Resmi Blog sayfasıdır.
