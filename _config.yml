@@ -7,13 +7,13 @@ url:                "http://blog.pailab.net"
 github:
   url:               #"https://lenpaul.github.io/Lagrange"
 author:
-  name:              "Paul Le"
-  email:             "l.nguyen.paul@gmail.com"
-  twitter:           "paululele"
-  instagram:         "paululele"
-  github:            "lenpaul"
-  facebook:          "Le.Paul.94"
-  linkedin:          "lenpaul"
+  name:              "Pailab"
+  email:             "info@pailab.net"
+  twitter:           "pailabnet"
+  instagram:         "pailabnet"
+  github:            "pailab"
+  facebook:          "pailabnet"
+  linkedin:          "pailabnet"
 navigation:
 - title: Hakkımızda
   url: /about
