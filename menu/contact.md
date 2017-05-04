@@ -1,6 +1,11 @@
 ---
 layout: page
-title: Contact
+title: İletişim
 ---
 
-If you are having any problems, any questions or suggestions, feel free to [tweet at me](https://twitter.com/intent/tweet?text=%40paululele), or [file a GitHub issue](https://github.com/lenpaul/lagrange/issues/new)
+Sosyal medya hesaplarımızdan bizlere ulaşabilir veya sabit hattımızı arayabilirsiniz. Daha hızlı iletişime geçmek isterseniz info@pailab.net adresinden bizler ile iletişime geçebilirsiniz.
+
+Sabit Hat: 0 (850) 304 71 92
+twitter: @pailabnet
+instagram: @pailabnet
+github: @pailab
