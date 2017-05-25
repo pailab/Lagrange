@@ -1,10 +1,6 @@
 ---
 layout: post
-title: "C#  Bu yazımızda c# kontrol sınıfını inceleyeceğiz. buton ,textbox, label gibi form araçları oluşturup bu araçları  konsol ekranında düzenleyeceğiz.
-Bu yazımızda c# kontrol sınıfını inceleyeceğiz. buton ,textbox, label gibi form araçları oluşturup bu araçları  konsol ekranında düzenleyeceğiz.
-Bu yazımızda c# kontrol sınıfını inceleyeceğiz. buton ,textbox, label gibi form araçları oluşturup bu araçları  konsol ekranında düzenleyeceğiz.
-Bu yazımızda c# kontrol sınıfını inceleyeceğiz. buton ,textbox, label gibi form araçları oluşturup bu araçları  konsol ekranında düzenleyeceğiz.
-Control sınıfı nedir?"
+title: "C# Control sınıfı nedir?"
 categories: journal
 tags: [C#,Control,Class]
 image:
