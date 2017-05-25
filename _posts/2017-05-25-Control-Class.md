@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "C# Control sınıfı nedir?"
+title: "C# Control Sınıfı Nedir?"
 categories: journal
 tags: [C#,Control,Class]
 image:
