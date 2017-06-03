@@ -1,9 +1,12 @@
+
 # Site Settings
 title:               Pailab Blog
 tagline:             Pailab Offical Blog
-description:
+description:		Pailab ekibinin yazmış olduğu blog yazılarının listelendiği web sayfası
+rss:			
+  url:                "http://blog.pailab.net/feed.xml"
 baseurl:            #"/Lagrange"
-url:                #"https://lenpaul.github.io"
+url:                #"http://blog.pailab.net"
 github:
   url:               #"https://lenpaul.github.io/Lagrange"
 author:
