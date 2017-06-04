@@ -31,4 +31,6 @@ disqus:              #"your-disqus"
 markdown:            kramdown
 highlighter:         rouge
 permalink:           none
-gems:                [jekyll-paginate]
+gems:                
+  - jekyll-paginate
+  - amp-jekyll
