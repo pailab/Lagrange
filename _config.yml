@@ -33,4 +33,3 @@ highlighter:         rouge
 permalink:           none
 gems:                
   - jekyll-paginate
-  - amp-jekyll
