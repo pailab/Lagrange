@@ -20,7 +20,7 @@ Github, dünya genelinde ki en çok kullanılan ve öğrencilerin işlerine yara
 
 Github Student Pack servisi sizlerin öğrenci olduğunu teyit edebilmek için edu.tr mail adresleriniz ile Github hesabı açmanızı yada hali hazırda kullandığınız github hesabınıza edu.tr mail hesabınızı entegre etmenizi beklemektedir. Bildiğiniz üzere her üniversite öğrencisine 1 adet mail hesabı tanımlamaktadır. Namık Kemal Üniversitesi'nde bu durum okulnumarası@nku.edu.tr olarak formatlandırılmıştır. Ayrıca mail adresinizin parolası ile otomasyon hesabınızın parolası aynıdır. Bu işlemler sırasında doğal olarak aktivasyon amacıyla kullanılacaktır. Mail adreslerinize Namık Kemal Üniversitesi öğrencileri mail adreslerine [gmail.com](https://gmail.com) üzerinden erişebilmektedirler.
 
-### Lets the begin!
+### Let's begin!
 
 
 Öncelikle [github](https://github.com) adlı internet sitesinden hesap oluşturmamız gerekecek. Bunun için github'ın index'inde bulunan formu doldurmanız gerekmektedir. Form aşağıda gösterilen şekilde doldurulmalıdır.
